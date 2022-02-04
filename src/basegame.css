@@ -1,0 +1,13 @@
+body {
+  border: 2em solid transparent;
+}
+
+#FromValue,
+#ToValue {
+  font-family: monospace, sans-serif;
+  font-size: 36pt;
+}
+
+#ToValue {
+  width: 6em;
+}

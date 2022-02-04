@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>&nbsp;</title>
+    <link rel="stylesheet" href="basegame.css">
+    <script src="basegame.js"></script>
+  </head>
+  <body onload="game()">
+    <div id="Instructions">
+      <p>
+	Answer using the minimal number of digits.<br>
+	Incorrect answer will be changed to red.<br>
+	Correct answer will be changed to green and goes to the next question after one second.<br>
+	Range of values: [<span id="vMin"></span>, <span id="vMax"></span>)
+      </p>
+    </div>
+    <div id="Game">
+      <span id="FromValue"></span> <span id="FromBase"></span>
+      =
+      <input name="FoValue" type="text" id="ToValue" onkeypress="keyPress(event)"> <span id="ToBase"></span>
+    </div>
+  </body>
+</html>
